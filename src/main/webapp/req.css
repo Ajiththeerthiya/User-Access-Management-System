@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* Basic styles for table and container */
+body{
+	padding:30px;
+}
+a{
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    font-size:30px;
+    font-family:Arial, sans-serif;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Optional styling for the "Action" column link */
+a.request-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a.request-link:hover {
+    color: #0056b3;
+}
