@@ -35,7 +35,7 @@
 				<td><%=rs.getInt(1)%></td>
 				<td><%=rs.getString(2)%></td>
 				<td><%=rs.getString(3)%></td>
-				<td><a href="ApprovalServlet?id=<%=rs.getInt(1)%>">Request</a></td>
+				<td><a>Request</a></td>
 			</tr>
 			<%
 			}
